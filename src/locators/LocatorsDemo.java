@@ -2,6 +2,7 @@ package locators;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LocatorsDemo {
@@ -13,7 +14,9 @@ public class LocatorsDemo {
 		driver.manage().window().maximize();
 		driver.get("https://demo.guru99.com/test/newtours/");
 		driver.findElement(By.linkText("REGISTER")).click();
-		driver.findElement(By.name("firstName")).sendKeys("shantosh");
+		WebElement firstName = driver.findElement(By.name("firstName"));
+		firstName.clear();
+		firstName.sendKeys("shantosh");
 		driver.findElement(By.name("lastName")).sendKeys("kumar");
 		driver.findElement(By.name("phone")).sendKeys("7975635835");
 		driver.findElement(By.id("userName")).sendKeys("shantosh@test.com");

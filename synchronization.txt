@@ -1,0 +1,21 @@
+Synchronization in Selenium -- Wait Statements in Selenium
+
+ * Synchronzation its the process of matching the tool(eclipse+selenium) speed with the application(any web application)
+
+To acchieve synchronization there are different types of wait statements in selenium
+
+1-Implicit Wait
+ * this is the wait statement written globally - at the start of the program
+ * the wait period specified is applicable to all the element that is located using driver.findBy
+ * the wait duration can be from nanseconds to days
+ * even after the specified time if the element is not present on the webpage then it will throw no such element exception
+
+2-Explicit Wait
+ * this is the wait statement for a particular element
+ * the wait duration can be only in seconds
+ * we need to create webdriverwait object
+ * we can specifiy the condition
+ * even after the specified time if the element is not present on the webpage then it will throw time out exception
+
+3 Thread.Sleep
+ * hard wait statements
