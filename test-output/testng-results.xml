@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-10T07:34:12 IST" name="Default suite" finished-at="2023-06-10T07:34:12 IST" duration-ms="100">
+    <groups>
+    </groups>
+    <test started-at="2023-06-10T07:34:12 IST" name="Default test" finished-at="2023-06-10T07:34:12 IST" duration-ms="100">
+      <class name="annotations.TestngAnnotationDemo">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:annotations.TestngAnnotationDemo@6babf3bf]" started-at="2023-06-10T07:34:12 IST" name="setUpReport" finished-at="2023-06-10T07:34:12 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="preTest()[pri:0, instance:annotations.TestngAnnotationDemo@6babf3bf]" started-at="2023-06-10T07:34:12 IST" name="preTest" finished-at="2023-06-10T07:34:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTest -->
+        <test-method is-config="true" signature="clearCache()[pri:0, instance:annotations.TestngAnnotationDemo@6babf3bf]" started-at="2023-06-10T07:34:12 IST" name="clearCache" finished-at="2023-06-10T07:34:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCache -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:annotations.TestngAnnotationDemo@6babf3bf]" started-at="2023-06-10T07:34:12 IST" name="setUp" finished-at="2023-06-10T07:34:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="b()[pri:1, instance:annotations.TestngAnnotationDemo@6babf3bf]" started-at="2023-06-10T07:34:12 IST" name="b" finished-at="2023-06-10T07:34:12 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:annotations.TestngAnnotationDemo@6babf3bf]" started-at="2023-06-10T07:34:12 IST" name="tearDown" finished-at="2023-06-10T07:34:12 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:annotations.TestngAnnotationDemo@6babf3bf]" started-at="2023-06-10T07:34:12 IST" name="setUp" finished-at="2023-06-10T07:34:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="a()[pri:2, instance:annotations.TestngAnnotationDemo@6babf3bf]" started-at="2023-06-10T07:34:12 IST" name="a" finished-at="2023-06-10T07:34:12 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:annotations.TestngAnnotationDemo@6babf3bf]" started-at="2023-06-10T07:34:12 IST" name="tearDown" finished-at="2023-06-10T07:34:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:annotations.TestngAnnotationDemo@6babf3bf]" started-at="2023-06-10T07:34:12 IST" name="setUp" finished-at="2023-06-10T07:34:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="c()[pri:3, instance:annotations.TestngAnnotationDemo@6babf3bf]" started-at="2023-06-10T07:34:12 IST" name="c" finished-at="2023-06-10T07:34:12 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:annotations.TestngAnnotationDemo@6babf3bf]" started-at="2023-06-10T07:34:12 IST" name="tearDown" finished-at="2023-06-10T07:34:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="postTest()[pri:0, instance:annotations.TestngAnnotationDemo@6babf3bf]" started-at="2023-06-10T07:34:12 IST" name="postTest" finished-at="2023-06-10T07:34:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:annotations.TestngAnnotationDemo@6babf3bf]" started-at="2023-06-10T07:34:12 IST" name="afterClass" finished-at="2023-06-10T07:34:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:annotations.TestngAnnotationDemo@6babf3bf]" started-at="2023-06-10T07:34:12 IST" name="flushReport" finished-at="2023-06-10T07:34:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- annotations.TestngAnnotationDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
